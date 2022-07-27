@@ -1,0 +1,10 @@
+package com.example.demo.project.repository;
+
+import com.example.demo.project.model.Customer;
+import com.example.demo.project.model.Plan;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PlanRepository extends JpaRepository<Plan,Long> {
+
+
+}
